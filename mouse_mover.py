@@ -24,4 +24,4 @@ while True:
         pyautogui.moveTo(x_offset, y_offset, duration=duration, tween=pyautogui.easeInOutQuad)
     except:
         # Stops moving mouse temporarily when mouse moves to the corner of the screen
-        time.sleep(20)
+        time.sleep(random.randint(5, 60))
